@@ -1,18 +1,15 @@
-package Task;
 public class Person {
-    String name;
-    int age;
+    private String name;
+    private int age;
+    public Person() {
+        this.age = 18;
+    }
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public void displayPerson() {
+    public void displayInfo() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
 }
-
-
-
-
-    
